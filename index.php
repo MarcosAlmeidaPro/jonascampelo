@@ -29,7 +29,7 @@
     <body>
         <header>
             <nav class="menu">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="col-lg-3 col-md-3">
                         <img src="resources/img/Marca-JonasCampelo.png" alt="Marca Jonas Campelo" class="marca">
                     </div>
@@ -101,7 +101,7 @@
                         </h1>
                     </div>
                     <div class="col-lg-8 col-md-8">
-                        <img src="resources/img/JonasCampelo-min.png" alt="Arte Jonas Campelo" class="perfil">
+                        <img src="resources/img/JonasCampelo-min.jpg" alt="Arte Jonas Campelo" class="perfil">
                     </div>
                 </div>
             </div>
