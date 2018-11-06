@@ -1,0 +1,200 @@
+
+html, body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #808080;
+    font-weight: 200;
+}
+
+
+section {
+    padding: 50px 0;
+}
+
+
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: auto;
+}
+
+.p-apoio {
+    width: 70%;
+    text-align: center;
+    margin: 30px auto 60px;
+}
+
+.p-apoio strong {color: #cc41ac;}
+
+
+
+
+header {
+    background-image: url(img/Capa-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    width: auto;
+}
+
+.marca {
+    height: 180px;
+    width: auto;
+    margin-top: 20px;
+}
+
+
+#servicos { 
+    margin-top: -200px;
+    z-index: 999;
+}
+
+
+
+.produtos {
+    width: 90%;
+    margin: auto;
+}
+
+
+.produtos i {
+    font-size: 350%;
+    margin: 0;
+    padding: 0;
+    color: #e69ae6;
+}
+
+
+.produtos h4 {
+    color: #b458b4;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+#perfil h1 {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 140%;
+    font-kerning: normal;
+    line-height: 30px;
+}
+
+.perfil {
+    width: 100%;
+    margin-top: -100px;
+}
+
+.conteudo-perfil {
+    padding-left: 50px;
+}
+
+
+
+#fotos {
+    padding: 0;
+}
+
+
+.fotos-mini ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fotos-mini ul li {
+    display: block;
+    float: left;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+
+.fotos-mini img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.fotos-mini img:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+
+
+#midia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(img/Jonas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+
+#midia ul {
+    list-style: none;
+    
+}
+
+#midia li {
+    display: block;
+    float: left;
+    margin-right: 30px;
+    font-size: 250%;
+}
+
+
+
+.ion-social-facebook {color: #fff;}
+.ion-social-instagram {color: #fff;}
+.ion-social-youtube {color: #fff;}
+
+
+
+#contato h1 {text-align: left;}
+
+.contact-form {padding: 20px;}
+
+#mapa {padding: 0;}
+
+.map-box {
+    width: 100%;
+    height: 300px;
+    z-index: 0;
+    position: relative;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+}
+
+footer {
+    font-size: 90%;
+    padding: 20px;
+    background-image: url(img/Color-Explosion-min.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+
+footer img {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+
+footer p {text-align: right}

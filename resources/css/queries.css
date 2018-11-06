@@ -1,0 +1,17 @@
+@media only screen and (max-width: 767px) {
+    .perfil {margin-top: 0px;}
+    body, html {font-size: 15px;}
+    footer {
+        font-size: 90%;
+        padding: 20px;
+        background-image: url(); 
+        text-align: center;
+    }
+    footer img {
+        text-align: center;
+    }
+
+
+    footer p {text-align: center}
+    
+}
